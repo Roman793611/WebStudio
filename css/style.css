@@ -1,0 +1,19 @@
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+.hero-title {
+    font-size: 36px;
+    line-height: 1.2;
+    /* Наприклад, якщо раніше було 43px, а font-size: 36px → 43/36 ≈ 1.2 */
+}
+
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    /* Наприклад, 24px / 16px = 1.5 */
+}
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
