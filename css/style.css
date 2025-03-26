@@ -1,4 +1,13 @@
-
+:root {
+    --hover-button-span: #2196f3;
+    --logo: #000000;
+    --title-nav-h: #212121;
+    --p-title: #757575;
+    --footer-bg: #2f303a;
+    --teams-bg-button-port: #f5f4fa;
+        --bg-text-footer: #ffffff;
+        --footer-address: rgba(255, 255, 255, 0.6);
+    }
 body {
     font-family: 'Inter', sans-serif;
 }
