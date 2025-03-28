@@ -5,24 +5,19 @@
     --p-title: #757575;
     --footer-bg: #2f303a;
     --teams-bg-button-port: #f5f4fa;
-        --bg-text-footer: #ffffff;
-        --footer-address: rgba(255, 255, 255, 0.6);
-    }
-body {
-    font-family: 'Inter', sans-serif;
-}
-.hero-title {
-    font-size: 36px;
-    line-height: 1.2;
-    /* Наприклад, якщо раніше було 43px, а font-size: 36px → 43/36 ≈ 1.2 */
+    --bg-text-footer: #ffffff;
+    --footer-address: rgba(255, 255, 255, 0.6);
 }
 
-.footer-text {
-    font-size: 16px;
-    line-height: 1.5;
-    /* Наприклад, 24px / 16px = 1.5 */
+* {
+    box-sizing: border-box;
 }
-body {
-    background-color: var(--background-color);
-    color: var(--text-color);
+
+.box {
+    width: 350px;
+    height: 220px;
+    padding: 15px 10px 20px 10px;
+    margin-bottom: 30px;
+    background-color: green;
+    border: 2px dashed red;
 }
